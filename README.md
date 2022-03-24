@@ -5,7 +5,6 @@
 
    Detection of Hump with / without markings at Nighttime in urban area, streets, inside cities road etc., 
 
-
 **Installation steps:**
 
 Install anaconda prompt in your system.
@@ -20,7 +19,7 @@ Open the anaconda prompt,Create the virtual enviroment.
    
   2) conda activate HumpDetection
    
-  3) cd /Downloade/Library/
+  3) Change the directory to Hump_Detection.(cd {HUMP_DETECTION_PATH})
 
 Makesure that folder contains requirements.txt file.
    
@@ -34,7 +33,7 @@ Makesure that folder contains requirements.txt file.
 
 2) Activate the HumpDetection environment.(conda activate HumpDetection)
 
-3) Change the directory to HumpDetection.(cd {HUMP_DETECTION_PATH})
+3) Change the directory to Hump_Detection.(cd {HUMP_DETECTION_PATH})
 
 
 

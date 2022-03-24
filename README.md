@@ -41,7 +41,7 @@ Makesure that folder contains requirements.txt file.
 1) Change the directory to Calibration folder.(cd {HUMP_DETECTION_PATH}/Calibration/)
 2) Calibartion (python calibration_set.py --input video_name)
 Example : python calibration_set.py --input ./../Input/Sample_video.avi
-3) Change the directory to HumpDetection.(cd {HUMP_DETECTION_PATH})
+3) Change the directory to Hump_Detection.(cd {HUMP_DETECTION_PATH})
 4) Hump detection (python hump_detection.py --input video_name --display 1)
 Example : python hump_detection.py --input ./Input/Sample_video.avi --display 1
 

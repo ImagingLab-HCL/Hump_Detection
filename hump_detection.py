@@ -196,8 +196,13 @@ if __name__ == "__main__":
         # exit time to calculate execution time
         t1 = time.time()
         total = t1 - t0
+
         # FPS calculation
-        FPS = 1 / total
+        if not(total == 0):
+            FPS = 1 / total
+        else:
+            FPS = 60
+
         if FPS > 60:
             FPS = 60
         start_point = (start_x, start_y)

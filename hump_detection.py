@@ -70,7 +70,7 @@ if __name__ == "__main__":
     cap = cv2.VideoCapture(input)
     # mask image reading
     mask = cv2.imread("./Calibration/calibration_mask.png", 0)
-    mask_line = cv2.imread("./calibration/calibration_mask.jpg", 0)
+    mask_line = cv2.imread("./Calibration/calibration_mask.jpg", 0)
     kernel = np.ones((5, 5), np.uint8)
     dilation = cv2.dilate(mask_line, kernel, iterations=5)
     mask_inv = cv2.bitwise_not(dilation)

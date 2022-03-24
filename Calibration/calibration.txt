@@ -1,0 +1,5 @@
+scale_percent 			80
+factor_to_start_height_mask 		55
+factor_to_end_height_mask 		20
+factor_to_start_width_mask 		30
+factor_to_end_width_mask 		20
